@@ -12,9 +12,6 @@ EditorBuildSettings:
     path: Assets/Scenes/LoginScene.unity
     guid: 7eede5adc1c80ef4abb7df6862971eb1
   - enabled: 1
-    path: Assets/Scenes/RoleScene.unity
-    guid: 3d836aad071b299428f1f0b39f1fd3b7
-  - enabled: 1
     path: Assets/Scenes/RegisterCustomerScene.unity
     guid: abd7626208d8c3a418ef12dd9268fd37
   - enabled: 1
@@ -26,4 +23,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/WelcomeScene.unity
     guid: ec23623d66629c14d8958c4301a56b9d
+  - enabled: 1
+    path: Assets/Scenes/RoleScene.unity
+    guid: 3d836aad071b299428f1f0b39f1fd3b7
   m_configObjects: {}
