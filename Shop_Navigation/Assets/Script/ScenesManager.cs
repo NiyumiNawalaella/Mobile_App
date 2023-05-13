@@ -16,7 +16,9 @@ public class ScenesManager : MonoBehaviour
     {
         FirstScene,
         LoginScene,
-        RegisterScene,
+        RoleScene,
+        RegisterCustomerScene,
+        RegisterShopOwnerScene,
         RegisterShopScene,
         WelcomeScene,
         HomeScene,

@@ -5,15 +5,15 @@ using UnityEngine.UI;
 
 public class UIregister : MonoBehaviour
 {
-    [SerializeField] Button register;
+    [SerializeField] Button registerrole;
 
     void Start()
     {
-        register.onClick.AddListener(RegisterPage);
+        registerrole.onClick.AddListener(RolePage);
     }
 
-    private void RegisterPage()
+    private void RolePage()
     {
-        ScenesManager.Instance.LoadScene(ScenesManager.Scene.RegisterScene);
+        ScenesManager.Instance.LoadScene(ScenesManager.Scene.RoleScene);
     }
 }
