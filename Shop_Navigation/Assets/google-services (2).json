@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "715730849170",
+    "project_id": "shopnavigationapp",
+    "storage_bucket": "shopnavigationapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:715730849170:android:a85bff239729746c4d054b",
+        "android_client_info": {
+          "package_name": "com.Kzone.Shop_Navigation"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "715730849170-is4iovuk980f29qtk3maabt9g0ek92a1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDn8NgJKRF1SF5Vq8h9m7tb1rHMKvUgnfQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "715730849170-is4iovuk980f29qtk3maabt9g0ek92a1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
