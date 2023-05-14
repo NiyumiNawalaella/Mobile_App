@@ -12,13 +12,13 @@ EditorBuildSettings:
     path: Assets/Scenes/LoginScene.unity
     guid: 7eede5adc1c80ef4abb7df6862971eb1
   - enabled: 1
-    path: Assets/Scenes/RegisterCustomerScene.unity
+    path: Assets/Scenes/Customer/RegisterCustomerScene.unity
     guid: abd7626208d8c3a418ef12dd9268fd37
   - enabled: 1
-    path: Assets/Scenes/RegisterShopOwnerScene.unity
+    path: Assets/Scenes/ShopOwner/RegisterShopOwnerScene.unity
     guid: 95a8682bab011274399ed4896136c67a
   - enabled: 1
-    path: Assets/Scenes/RegisterShopScene.unity
+    path: Assets/Scenes/ShopOwner/RegisterShopScene.unity
     guid: 34937e6420a13c14eb43e1d344902786
   - enabled: 1
     path: Assets/Scenes/WelcomeScene.unity
