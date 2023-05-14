@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Movement : MonoBehaviour
 {
-    public GameObject Home_Panel, SearchPanel, AccountPanel, Promotion_Panel, CustomerAccount_Panel;
+   // public GameObject Home_Panel, SearchPanel, AccountPanel, Promotion_Panel, CustomerAccount_Panel;
 
     /*public void OpenPanel()
     {

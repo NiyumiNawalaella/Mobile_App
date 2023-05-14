@@ -13,6 +13,6 @@ public class UIChangePassword : MonoBehaviour
 
     private void ChangePasswordPage()
     {
-        ScenesManager.Instance.LoadScene(ScenesManager.Scene.ChnagePasswordAccountScene);
+        ScenesManager.Instance.LoadScene(ScenesManager.Scene.ChangePasswordAccountScene);
     }
 }
