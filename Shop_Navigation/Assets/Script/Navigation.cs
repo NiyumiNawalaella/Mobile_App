@@ -14,6 +14,7 @@ public class Navigation : MonoBehaviour
         }
         activePanel.SetActive(true);
     }
+    
     // public GameObject Home_Panel;
     // public GameObject Promotion_Panel;
     // public GameObject Search_Panel;

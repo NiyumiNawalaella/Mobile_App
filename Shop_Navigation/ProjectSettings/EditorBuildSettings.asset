@@ -42,7 +42,7 @@ EditorBuildSettings:
     path: Assets/Scenes/Customer/EditCustomerScene.unity
     guid: 90cd6611edb51484088a385137d68c28
   - enabled: 1
-    path: Assets/Scenes/EditPageAccountScene.unity
+    path: Assets/Scenes/ShopOwner/EditPageAccountScene.unity
     guid: 71e76db031fe3ea4ead4efc7e254cea5
   - enabled: 1
     path: Assets/Scenes/ShopOwner/EditPageShopScene.unity
