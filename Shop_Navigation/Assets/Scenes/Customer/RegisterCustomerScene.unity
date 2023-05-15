@@ -623,13 +623,13 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1582577767}
+      - m_Target: {fileID: 1582577765}
         m_TargetAssemblyTypeName: AuthControlRegisterCustomer, Assembly-CSharp
-        m_MethodName: RegisterUser
+        m_MethodName: 
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgumentAssemblyTypeName: 
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -2828,6 +2828,7 @@ MonoBehaviour:
   emailInput: {fileID: 1076978173}
   passwordInput: {fileID: 759161445}
   confrimpassowrdInput: {fileID: 557940760}
+  usernameInput: {fileID: 0}
   RegisterCustomer_Panel: {fileID: 118317630}
   WarningPanel: {fileID: 240086231}
   warning_Title_Text: {fileID: 1227948573}

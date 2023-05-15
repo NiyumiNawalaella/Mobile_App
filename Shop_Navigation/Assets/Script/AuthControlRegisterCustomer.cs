@@ -10,7 +10,8 @@ using TMPro;
 using Firebase.Extensions;
 
 public class AuthControlRegisterCustomer : MonoBehaviour
-{
+{ ///
+    /*
     Firebase.Auth.FirebaseAuth auth;
     Firebase.Auth.FirebaseUser user;
 
@@ -98,7 +99,8 @@ public class AuthControlRegisterCustomer : MonoBehaviour
 
             UpdateUserProfile(username);
         });
-    }
+    }*/
+    ////
    /* public void SignInUser(string email, string password)
     {
         auth.SignInWithEmailAndPasswordAsync(email, password).ContinueWith(task => {
@@ -149,7 +151,9 @@ public class AuthControlRegisterCustomer : MonoBehaviour
         auth = null;
     }
     */
-    void UpdateUserProfile(string UserName)
+    
+    ///
+    /*void UpdateUserProfile(string UserName)
     {
         Firebase.Auth.FirebaseUser user = auth.CurrentUser;
         if (user != null)
@@ -176,5 +180,5 @@ public class AuthControlRegisterCustomer : MonoBehaviour
                 showWarningMessage("Alert", "Account Successfully Created");
             });
         }
-    }
+    }*/
 }
