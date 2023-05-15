@@ -12,6 +12,9 @@ EditorBuildSettings:
     path: Assets/Scenes/LoginScene.unity
     guid: 7eede5adc1c80ef4abb7df6862971eb1
   - enabled: 1
+    path: Assets/Scenes/RoleScene.unity
+    guid: b745ebd7f4f2ce145b71040faad5c5bb
+  - enabled: 1
     path: Assets/Scenes/Customer/RegisterCustomerScene.unity
     guid: abd7626208d8c3a418ef12dd9268fd37
   - enabled: 1
