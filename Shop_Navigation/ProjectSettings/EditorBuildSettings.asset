@@ -59,4 +59,8 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/ShopOwner/ShopCapacityScene.unity
     guid: bbbdad1fa6b5a234caccb7ca28c831f0
-  m_configObjects: {}
+  - enabled: 1
+    path: Assets/Scenes/NavigationScene.unity
+    guid: 006ad9011b7d81440a503b0c07267298
+  m_configObjects:
+    UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 4465f4c6adf885d419219c12c4342100, type: 2}
