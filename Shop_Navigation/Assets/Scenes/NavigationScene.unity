@@ -135,7 +135,7 @@ GameObject:
   - component: {fileID: 69703567}
   - component: {fileID: 69703566}
   - component: {fileID: 69703565}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: WallCube (13)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -230,7 +230,7 @@ GameObject:
   - component: {fileID: 132781630}
   - component: {fileID: 132781629}
   - component: {fileID: 132781628}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: WallCube (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -425,7 +425,7 @@ GameObject:
   - component: {fileID: 298248523}
   - component: {fileID: 298248522}
   - component: {fileID: 298248521}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: WallCube (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -520,7 +520,7 @@ GameObject:
   - component: {fileID: 314891761}
   - component: {fileID: 314891760}
   - component: {fileID: 314891759}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: WallCube (14)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -958,7 +958,7 @@ GameObject:
   - component: {fileID: 430819348}
   - component: {fileID: 430819347}
   - component: {fileID: 430819346}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: WallCube (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1053,7 +1053,7 @@ GameObject:
   - component: {fileID: 463292803}
   - component: {fileID: 463292802}
   - component: {fileID: 463292801}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: WallCube (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1148,7 +1148,7 @@ GameObject:
   - component: {fileID: 465080325}
   - component: {fileID: 465080324}
   - component: {fileID: 465080323}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: WallCube (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1243,7 +1243,7 @@ GameObject:
   - component: {fileID: 620755226}
   - component: {fileID: 620755225}
   - component: {fileID: 620755224}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: WallCube (21)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1338,7 +1338,7 @@ GameObject:
   - component: {fileID: 637297230}
   - component: {fileID: 637297229}
   - component: {fileID: 637297228}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: WallCube (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1433,7 +1433,7 @@ GameObject:
   - component: {fileID: 675818341}
   - component: {fileID: 675818340}
   - component: {fileID: 675818339}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: WallCube (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1527,6 +1527,7 @@ GameObject:
   - component: {fileID: 851601712}
   - component: {fileID: 851601714}
   - component: {fileID: 851601713}
+  - component: {fileID: 851601715}
   m_Layer: 0
   m_Name: Indicator
   m_TagString: Untagged
@@ -1667,6 +1668,20 @@ PositionConstraint:
   m_Sources:
   - sourceTransform: {fileID: 1856681374}
     weight: 1
+--- !u!114 &851601715
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 851601711}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45814833021bbb44388fdddaf5cad174, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  topDownCamera: {fileID: 396814055}
+  navTargetObject: {fileID: 370008154}
 --- !u!1 &853061884
 GameObject:
   m_ObjectHideFlags: 0
@@ -1679,7 +1694,7 @@ GameObject:
   - component: {fileID: 853061888}
   - component: {fileID: 853061887}
   - component: {fileID: 853061886}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: FloorCube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1774,7 +1789,7 @@ GameObject:
   - component: {fileID: 866810548}
   - component: {fileID: 866810547}
   - component: {fileID: 866810546}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: stairs (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1964,7 +1979,7 @@ GameObject:
   - component: {fileID: 1090919069}
   - component: {fileID: 1090919068}
   - component: {fileID: 1090919067}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: WallCube (20)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2071,7 +2086,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1170918739}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.5, y: 0, z: 0.2}
+  m_LocalPosition: {x: -0.5, y: -1, z: 0.2}
   m_LocalScale: {x: 1, y: 2, z: 1}
   m_Children:
   - {fileID: 853061885}
@@ -2160,7 +2175,7 @@ GameObject:
   - component: {fileID: 1357787118}
   - component: {fileID: 1357787117}
   - component: {fileID: 1357787116}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: WallCube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2255,7 +2270,7 @@ GameObject:
   - component: {fileID: 1370333096}
   - component: {fileID: 1370333095}
   - component: {fileID: 1370333094}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: WallCube (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2350,7 +2365,7 @@ GameObject:
   - component: {fileID: 1759273500}
   - component: {fileID: 1759273499}
   - component: {fileID: 1759273498}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: WallCube (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2445,7 +2460,7 @@ GameObject:
   - component: {fileID: 1771895953}
   - component: {fileID: 1771895952}
   - component: {fileID: 1771895951}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: WallCube (17)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2580,7 +2595,7 @@ Camera:
   m_Depth: 0
   m_CullingMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 567
   m_RenderingPath: -1
   m_TargetTexture: {fileID: 0}
   m_TargetDisplay: 0
@@ -2669,7 +2684,7 @@ GameObject:
   - component: {fileID: 1878739956}
   - component: {fileID: 1878739955}
   - component: {fileID: 1878739954}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: stairs
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2764,7 +2779,7 @@ GameObject:
   - component: {fileID: 1892519497}
   - component: {fileID: 1892519496}
   - component: {fileID: 1892519495}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Escalator
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2925,7 +2940,7 @@ GameObject:
   - component: {fileID: 1914531657}
   - component: {fileID: 1914531656}
   - component: {fileID: 1914531655}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: WallCube (18)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3020,7 +3035,7 @@ GameObject:
   - component: {fileID: 1932479902}
   - component: {fileID: 1932479901}
   - component: {fileID: 1932479900}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: WallCube (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3115,7 +3130,7 @@ GameObject:
   - component: {fileID: 1948309465}
   - component: {fileID: 1948309464}
   - component: {fileID: 1948309463}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Escalator (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3210,7 +3225,7 @@ GameObject:
   - component: {fileID: 1984888905}
   - component: {fileID: 1984888904}
   - component: {fileID: 1984888903}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: WallCube (16)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3305,7 +3320,7 @@ GameObject:
   - component: {fileID: 1996586387}
   - component: {fileID: 1996586386}
   - component: {fileID: 1996586385}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: WallCube (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3400,7 +3415,7 @@ GameObject:
   - component: {fileID: 2023106302}
   - component: {fileID: 2023106301}
   - component: {fileID: 2023106300}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: WallCube (19)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3554,7 +3569,7 @@ GameObject:
   - component: {fileID: 2059230663}
   - component: {fileID: 2059230662}
   - component: {fileID: 2059230661}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: WallCube (15)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
