@@ -2,16 +2,19 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
+using TMPro;
 
 public class SetNavigation : MonoBehaviour
 {
     [SerializeField]
-    private Camera topDownCamera;
+    private TMP_Dropdown navigationDropdown;
+
     [SerializeField]
-    private GameObject navTargetObject;
+    private List<Target> navigationTargetObjects = new List<Target>();
 
     private NavMeshPath path; //current calculated path
     private LineRenderer line; //linerenderer o display path
+    private Vector3 targetPostion = Vector3.zero; //current target position
 
     private bool lineToggle = false;
 
@@ -19,21 +22,34 @@ public class SetNavigation : MonoBehaviour
     {
         path = new NavMeshPath();
         line = transform.GetComponent<LineRenderer>();
+        line.enabled = lineToggle;
     }
 
     private void Update()
     {
-        if((Input.touchCount > 0) && (Input.GetTouch(0).phase == TouchPhase.Began))
+        if(lineToggle && targetPostion !=Vector3.zero)
         {
-            lineToggle = !lineToggle;
-        }
-        if(lineToggle)
-        {
-            NavMesh.CalculatePath(transform.position, navTargetObject.transform.position, NavMesh.AllAreas, path);
+            NavMesh.CalculatePath(transform.position, targetPostion, NavMesh.AllAreas, path);
             line.positionCount = path.corners.Length;
             line.SetPositions(path.corners);
-            line.enabled = true;
+           
         }
     }
 
+    public void SetCurrentNavigationTarget(int selectedValue)
+    {
+        targetPostion = Vector3.zero;
+        string selectedText = navigationDropdown.options[selectedValue].text;
+        Target currentTarget = navigationTargetObjects.Find(x => x.Name.Equals(selectedText));
+        if(currentTarget !=null)
+        {
+            targetPostion = currentTarget.PositionObject.transform.position;
+        }
+
+    }
+    public void ToogleVisibility()
+    {
+        lineToggle = !lineToggle;
+        line.enabled = lineToggle;
+    }
 }
