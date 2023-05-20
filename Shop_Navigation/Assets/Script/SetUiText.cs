@@ -1,18 +1,16 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using TMPro;
 public class SetUiText : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    [SerializeField]
+    private TMP_Text textField;
+    [SerializeField]
+    private string fixedText;
 
-    // Update is called once per frame
-    void Update()
+    public void OnSliderValueChanged(float numericValue)
     {
-        
+        textField.text = $"{fixedText}: {numericValue}";
     }
 }
