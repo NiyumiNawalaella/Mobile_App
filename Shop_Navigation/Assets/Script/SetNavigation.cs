@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
 using TMPro;
+using UnityEngine.UI;
 
 public class SetNavigation : MonoBehaviour
 {
@@ -11,6 +12,9 @@ public class SetNavigation : MonoBehaviour
 
     [SerializeField]
     private List<Target> navigationTargetObjects = new List<Target>();
+
+    [SerializeField]
+    private Slider navigationYOffset;
 
     private NavMeshPath path; //current calculated path
     private LineRenderer line; //linerenderer o display path
@@ -31,11 +35,24 @@ public class SetNavigation : MonoBehaviour
         {
             NavMesh.CalculatePath(transform.position, targetPostion, NavMesh.AllAreas, path);
             line.positionCount = path.corners.Length;
-            line.SetPositions(path.corners);
+            Vector3[] calculatedPathAndOffset = AddLineOffset();
+            line.SetPositions(calculatedPathAndOffset);
            
         }
     }
-
+    private Vector3[] AddLineOffset()
+    {
+        if(navigationYOffset.value ==0)
+        {
+            return path.corners;
+        }
+        Vector3[] calculatedLine = new Vector3[path.corners.Length];
+        for (int i = 0; i < path.corners.Length; i++)
+        {
+            calculatedLine[i] = path.corners[i] +new Vector3(0, navigationYOffset.value, 0);
+        }
+        return calculatedLine;
+    }
     public void SetCurrentNavigationTarget(int selectedValue)
     {
         targetPostion = Vector3.zero;
@@ -47,7 +64,7 @@ public class SetNavigation : MonoBehaviour
         }
 
     }
-    public void ToogleVisibility()
+    public void ToggleVisibility()
     {
         lineToggle = !lineToggle;
         line.enabled = lineToggle;
