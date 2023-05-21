@@ -20,6 +20,7 @@ public class SetNavigation : MonoBehaviour
     private LineRenderer line; //linerenderer o display path
     private Vector3 targetPostion = Vector3.zero; //current target position
 
+    private int currentFloor = 1;
     private bool lineToggle = false;
 
     private void Start()
@@ -60,6 +61,13 @@ public class SetNavigation : MonoBehaviour
         Target currentTarget = navigationTargetObjects.Find(x => x.Name.ToLower().Equals(selectedText.ToLower()));
         if(currentTarget !=null)
         {
+            if(!line.enabled)
+            {
+                ToggleVisibility();
+            }
+            //check if floor is changing
+            //if yes, lead to elevator
+            //if no, navigate
             targetPostion = currentTarget.PositionObject.transform.position;
         }
 
@@ -68,5 +76,32 @@ public class SetNavigation : MonoBehaviour
     {
         lineToggle = !lineToggle;
         line.enabled = lineToggle;
+    }
+    public void ChangeActiveFloor(int floorNumber)
+    {
+        currentFloor = floorNumber;
+        SetNavigationTargetDropDownOptions(currentFloor);
+    }
+
+    private void SetNavigationTargetDropDownOptions(int floorNumber)
+    {
+        navigationDropdown.ClearOptions();
+        navigationDropdown.value = 0;
+
+        if(line.enabled)
+        {
+            ToggleVisibility();
+        }
+        if(floorNumber ==1)
+        {
+            navigationDropdown.options.Add(new TMP_Dropdown.OptionData("Signer Shop Entrance"));
+            navigationDropdown.options.Add(new TMP_Dropdown.OptionData("Singer Shop Entrance Second"));
+            navigationDropdown.options.Add(new TMP_Dropdown.OptionData("Main Entrance"));
+            navigationDropdown.options.Add(new TMP_Dropdown.OptionData("Abans Shop Entrance"));
+            navigationDropdown.options.Add(new TMP_Dropdown.OptionData("Vision Care Shop Entrance"));
+            navigationDropdown.options.Add(new TMP_Dropdown.OptionData("Toy Library Shop Entrance"));
+            navigationDropdown.options.Add(new TMP_Dropdown.OptionData("Malika Hemahandra Jeweller Shop Entrance"));
+            navigationDropdown.options.Add(new TMP_Dropdown.OptionData("W.A..De Silva & Co.Shop Entrance"));
+        }
     }
 }
