@@ -31,7 +31,9 @@ public class ScenesManager : MonoBehaviour
         EditPageShopScene,
         PermissionScene,
         SearchingScene,
-        ShopCapacityScene
+        ShopCapacityScene,
+        NavigationScene,
+        NavigationCustomer
     }
     public void LoadScene(Scene scene )
     {
