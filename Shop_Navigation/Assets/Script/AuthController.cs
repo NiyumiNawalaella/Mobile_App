@@ -5,13 +5,17 @@ using UnityEngine.UI;
 
 using Firebase;
 using Firebase.Auth;
-using TMPro;
 
 public class AuthController : MonoBehaviour
 {
     public InputField emailInput, passwordInput, forgetPassEmail;
     public GameObject Login_Panel, ForgetPassordPanel, WarningPanel;
     public Text warning_Title_Text, warning_Message_Text;
+
+    [Header("Firebase")]
+    public DependencyStatus dependencyStatus;
+    public FirebaseUser User;
+    public FirebaseAuth Auth;
 
     public void OpenLoginPanel()
     {
