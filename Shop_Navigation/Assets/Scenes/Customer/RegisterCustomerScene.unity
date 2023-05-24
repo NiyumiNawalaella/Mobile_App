@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028346, g: 0.22571373, b: 0.30692244, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657874, g: 0.49641258, b: 0.574817, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -295,6 +295,7 @@ GameObject:
   - component: {fileID: 118317634}
   - component: {fileID: 118317633}
   - component: {fileID: 118317632}
+  - component: {fileID: 118317635}
   m_Layer: 5
   m_Name: Register Panel
   m_TagString: Untagged
@@ -385,6 +386,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 118317630}
   m_CullTransparentMesh: 1
+--- !u!114 &118317635
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 118317630}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a46d1a68c0543b14f9362fbcf723d697, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  welcomeCustomerPage: {fileID: 259126967}
 --- !u!1 &159626156
 GameObject:
   m_ObjectHideFlags: 0
@@ -2825,14 +2839,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9554cab4e7699f14ea7f303d2b067431, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  emailInput: {fileID: 1076978173}
-  passwordInput: {fileID: 759161445}
-  confrimpassowrdInput: {fileID: 557940760}
-  usernameInput: {fileID: 0}
-  RegisterCustomer_Panel: {fileID: 118317630}
-  WarningPanel: {fileID: 240086231}
-  warning_Title_Text: {fileID: 1227948573}
-  warning_Message_Text: {fileID: 2121184899}
 --- !u!1 &1668941831
 GameObject:
   m_ObjectHideFlags: 0

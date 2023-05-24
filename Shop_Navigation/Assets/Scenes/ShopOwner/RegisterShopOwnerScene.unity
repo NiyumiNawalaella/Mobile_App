@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028346, g: 0.22571373, b: 0.30692244, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657874, g: 0.49641258, b: 0.574817, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -2815,6 +2815,8 @@ GameObject:
   - component: {fileID: 1680171180}
   - component: {fileID: 1680171179}
   - component: {fileID: 1680171181}
+  - component: {fileID: 1680171182}
+  - component: {fileID: 1680171183}
   m_Layer: 5
   m_Name: Register Panel
   m_TagString: Untagged
@@ -2904,6 +2906,32 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   registerrole: {fileID: 814973532}
+--- !u!114 &1680171182
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1680171177}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8da542dfd9af8b340aee5f47d7370d85, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  registerShopPage: {fileID: 1306769718}
+--- !u!114 &1680171183
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1680171177}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe9e2d8aac1becb4baf5c1e08fd0c85a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  welcomepage: {fileID: 1306769718}
 --- !u!1 &1774310990
 GameObject:
   m_ObjectHideFlags: 0

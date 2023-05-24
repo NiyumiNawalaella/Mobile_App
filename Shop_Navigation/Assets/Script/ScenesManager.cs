@@ -21,6 +21,7 @@ public class ScenesManager : MonoBehaviour
         RegisterShopOwnerScene,
         RegisterShopScene,
         WelcomeScene,
+        WelcomeCustomer,
         HomeScene,
         Home_CustomerScene,
         AddPromotionScene,

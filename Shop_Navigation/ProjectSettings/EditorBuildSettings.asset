@@ -27,6 +27,9 @@ EditorBuildSettings:
     path: Assets/Scenes/ShopOwner/WelcomeScene.unity
     guid: ec23623d66629c14d8958c4301a56b9d
   - enabled: 1
+    path: Assets/Scenes/Customer/WelcomeCustomerScene.unity
+    guid: bd54db3b7d6557d4cb41ba00d902f24b
+  - enabled: 1
     path: Assets/Scenes/ShopOwner/HomeScene.unity
     guid: 7bb5d7ff5a8514645b48f760c9813274
   - enabled: 1
