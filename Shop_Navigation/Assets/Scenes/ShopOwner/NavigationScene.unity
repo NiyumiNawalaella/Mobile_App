@@ -960,49 +960,22 @@ MonoBehaviour:
   navigationTargetObjects:
   - Name: Signer Shop Entrance
     PositionObject: {fileID: 1517201987}
-    FloorNumber: 0
-    Position: {x: 0, y: 0, z: 0}
-    Rotation: {x: 0, y: 0, z: 0}
   - Name: Singer Shop Entrance Second
     PositionObject: {fileID: 902043812}
-    FloorNumber: 0
-    Position: {x: 0, y: 0, z: 0}
-    Rotation: {x: 0, y: 0, z: 0}
   - Name: Main Entrance
     PositionObject: {fileID: 1209036747}
-    FloorNumber: 0
-    Position: {x: 0, y: 0, z: 0}
-    Rotation: {x: 0, y: 0, z: 0}
   - Name: Abans Shop Entrance
     PositionObject: {fileID: 1776838465}
-    FloorNumber: 0
-    Position: {x: 0, y: 0, z: 0}
-    Rotation: {x: 0, y: 0, z: 0}
   - Name: Vision Care Shop Entrance
     PositionObject: {fileID: 1481357934}
-    FloorNumber: 0
-    Position: {x: 0, y: 0, z: 0}
-    Rotation: {x: 0, y: 0, z: 0}
   - Name: Toy Library Shop Entrance
     PositionObject: {fileID: 1681392352}
-    FloorNumber: 0
-    Position: {x: 0, y: 0, z: 0}
-    Rotation: {x: 0, y: 0, z: 0}
   - Name: Malika Hemahandra Jeweller Shop Entrance
     PositionObject: {fileID: 757518661}
-    FloorNumber: 0
-    Position: {x: 0, y: 0, z: 0}
-    Rotation: {x: 0, y: 0, z: 0}
   - Name: W.A..De Silva & Co.Shop Entrance
     PositionObject: {fileID: 1705404814}
-    FloorNumber: 0
-    Position: {x: 0, y: 0, z: 0}
-    Rotation: {x: 0, y: 0, z: 0}
   - Name: StartPoint
     PositionObject: {fileID: 1169734205}
-    FloorNumber: 0
-    Position: {x: 0, y: 0, z: 0}
-    Rotation: {x: 0, y: 0, z: 0}
 --- !u!4 &237969348
 Transform:
   m_ObjectHideFlags: 0
@@ -1439,7 +1412,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 332506846}
   m_LocalRotation: {x: 0.40821788, y: -0.23456968, z: 0.10938163, w: 0.8754261}
-  m_LocalPosition: {x: 0, y: 3, z: 0}
+  m_LocalPosition: {x: 0, y: 2, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1673,7 +1646,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 366358598}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.645, y: 0, z: 0.41}
+  m_LocalPosition: {x: -1.645, y: -2, z: 0.8643042}
   m_LocalScale: {x: 0.115540005, y: 0.115540005, z: 0.115540005}
   m_Children: []
   m_Father: {fileID: 1295397618}
@@ -1866,7 +1839,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 370008154}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.5, y: 0, z: -0.7}
+  m_LocalPosition: {x: -0.9, y: -3, z: -0.6914434}
   m_LocalScale: {x: 0.115540005, y: 0.115540005, z: 0.115540005}
   m_Children: []
   m_Father: {fileID: 1047485651}
@@ -1970,7 +1943,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 396814052}
   m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 0, y: 5, z: 0}
+  m_LocalPosition: {x: -2, y: 2.38, z: 3}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 851601712}
@@ -2011,7 +1984,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 1.45
+  orthographic size: 19.6
   m_Depth: 0
   m_CullingMask:
     serializedVersion: 2
@@ -2339,7 +2312,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 479775725}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.604, y: 0, z: 0.296}
+  m_LocalPosition: {x: 0.59999996, y: -3, z: 0.7778738}
   m_LocalScale: {x: 0.11554, y: 0.11554, z: 0.11554}
   m_Children: []
   m_Father: {fileID: 1444076287}
@@ -2864,8 +2837,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 709972543}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -1}
-  m_LocalScale: {x: 0.11554, y: 0.11554, z: 0.11554}
+  m_LocalPosition: {x: 0, y: -2, z: -1.1235955}
+  m_LocalScale: {x: 0.06731138, y: 0.10670119, z: 0.10670119}
   m_Children: []
   m_Father: {fileID: 1149751934}
   m_RootOrder: 0
@@ -2989,7 +2962,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 851601711}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -1}
+  m_LocalPosition: {x: 0, y: 0, z: -13}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1059685718}
@@ -3048,7 +3021,7 @@ LineRenderer:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 0.11199951
+        value: 0.5279999
         inSlope: 0
         outSlope: 0
         tangentMode: 0
@@ -3104,8 +3077,8 @@ PositionConstraint:
   m_GameObject: {fileID: 851601711}
   m_Enabled: 1
   m_Weight: 1
-  m_TranslationAtRest: {x: 0, y: 0, z: -1}
-  m_TranslationOffset: {x: 0, y: 0, z: 0}
+  m_TranslationAtRest: {x: 0, y: 0, z: -13}
+  m_TranslationOffset: {x: 0, y: -1, z: -3}
   m_AffectTranslationX: 1
   m_AffectTranslationY: 0
   m_AffectTranslationZ: 1
@@ -3130,49 +3103,22 @@ MonoBehaviour:
   navigationTargetObjects:
   - Name: Signer Shop Entrance
     PositionObject: {fileID: 370008154}
-    FloorNumber: 0
-    Position: {x: 0, y: 0, z: 0}
-    Rotation: {x: 0, y: 0, z: 0}
   - Name: Singer Shop Entrance Second
     PositionObject: {fileID: 1142891480}
-    FloorNumber: 0
-    Position: {x: 0, y: 0, z: 0}
-    Rotation: {x: 0, y: 0, z: 0}
   - Name: Main Entrance
     PositionObject: {fileID: 1681592439}
-    FloorNumber: 0
-    Position: {x: 0, y: 0, z: 0}
-    Rotation: {x: 0, y: 0, z: 0}
   - Name: Abans Shop Entrance
     PositionObject: {fileID: 366358598}
-    FloorNumber: 0
-    Position: {x: 0, y: 0, z: 0}
-    Rotation: {x: 0, y: 0, z: 0}
   - Name: Vision Care Shop Entrance
     PositionObject: {fileID: 479775725}
-    FloorNumber: 0
-    Position: {x: 0, y: 0, z: 0}
-    Rotation: {x: 0, y: 0, z: 0}
   - Name: Toy Library Shop Entrance
     PositionObject: {fileID: 1288710470}
-    FloorNumber: 0
-    Position: {x: 0, y: 0, z: 0}
-    Rotation: {x: 0, y: 0, z: 0}
   - Name: Malika Hemahandra Jeweller Shop Entrance
     PositionObject: {fileID: 1526456819}
-    FloorNumber: 0
-    Position: {x: 0, y: 0, z: 0}
-    Rotation: {x: 0, y: 0, z: 0}
   - Name: W.A..De Silva & Co.Shop Entrance
     PositionObject: {fileID: 1594366753}
-    FloorNumber: 0
-    Position: {x: 0, y: 0, z: 0}
-    Rotation: {x: 0, y: 0, z: 0}
   - Name: StartPoint
     PositionObject: {fileID: 709972543}
-    FloorNumber: 0
-    Position: {x: 0, y: 0, z: 0}
-    Rotation: {x: 0, y: 0, z: 0}
   navigationYOffset: {fileID: 1080596478}
 --- !u!1 &853061884
 GameObject:
@@ -3804,8 +3750,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1059685717}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.3, y: 0.3, z: 0.3}
+  m_LocalPosition: {x: 0, y: 0, z: -0.00000047683716}
+  m_LocalScale: {x: 2.177165, y: -1.67, z: 1.8245012}
   m_Children: []
   m_Father: {fileID: 851601712}
   m_RootOrder: 0
@@ -4465,7 +4411,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1142891480}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.714, y: 0, z: -0.204}
+  m_LocalPosition: {x: -2, y: -3, z: -0.2592913}
   m_LocalScale: {x: 0.11554, y: 0.11554, z: 0.11554}
   m_Children: []
   m_Father: {fileID: 1362758701}
@@ -4757,7 +4703,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1217490034}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -1}
+  m_LocalPosition: {x: 0, y: 1, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1856681374}
@@ -4834,7 +4780,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1288710470}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.21, y: 0, z: 0.297}
+  m_LocalPosition: {x: 1.2, y: -2, z: 0.6914434}
   m_LocalScale: {x: 0.11554, y: 0.11554, z: 0.11554}
   m_Children: []
   m_Father: {fileID: 1595171280}
@@ -5362,8 +5308,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1443574791}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 0, y: 1, z: 0}
+  m_LocalScale: {x: 20, y: 1, z: 11.57}
   m_Children:
   - {fileID: 1170918740}
   - {fileID: 226989925}
@@ -5566,7 +5512,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1526456819}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.584, y: 0, z: -0.881}
+  m_LocalPosition: {x: 0.95, y: -2, z: -0.881}
   m_LocalScale: {x: 0.11554, y: 0.11554, z: 0.11554}
   m_Children: []
   m_Father: {fileID: 1371131091}
@@ -5922,7 +5868,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1594366753}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.579, y: 0, z: -0.491}
+  m_LocalPosition: {x: 0.95000005, y: -3, z: -0.491}
   m_LocalScale: {x: 0.11554, y: 0.11554, z: 0.11554}
   m_Children: []
   m_Father: {fileID: 2096384359}
@@ -6444,8 +6390,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1681592439}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.007, y: 0, z: -1}
-  m_LocalScale: {x: 0.11554, y: 0.11554, z: 0.11554}
+  m_LocalPosition: {x: 0.006, y: -3, z: -1.119}
+  m_LocalScale: {x: 0.066167444, y: 0.11554, z: 0.11554}
   m_Children: []
   m_Father: {fileID: 27801533}
   m_RootOrder: 0
@@ -8134,7 +8080,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2024464056}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -1}
+  m_LocalPosition: {x: 63, y: -43, z: -9}
   m_LocalScale: {x: 1.011, y: 1.011, z: 1.011}
   m_Children: []
   m_Father: {fileID: 0}

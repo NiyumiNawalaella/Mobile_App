@@ -3086,49 +3086,22 @@ MonoBehaviour:
   navigationTargetObjects:
   - Name: Signer Shop Entrance
     PositionObject: {fileID: 1531958282}
-    FloorNumber: 0
-    Position: {x: 0, y: 0, z: 0}
-    Rotation: {x: 0, y: 0, z: 0}
   - Name: Singer Shop Entrance Second
     PositionObject: {fileID: 208964639}
-    FloorNumber: 0
-    Position: {x: 0, y: 0, z: 0}
-    Rotation: {x: 0, y: 0, z: 0}
   - Name: Main Entrance
     PositionObject: {fileID: 1753105462}
-    FloorNumber: 0
-    Position: {x: 0, y: 0, z: 0}
-    Rotation: {x: 0, y: 0, z: 0}
   - Name: Abans Shop Entrance
     PositionObject: {fileID: 263076477}
-    FloorNumber: 0
-    Position: {x: 0, y: 0, z: 0}
-    Rotation: {x: 0, y: 0, z: 0}
   - Name: Vision Care Shop Entrance
     PositionObject: {fileID: 1920850579}
-    FloorNumber: 0
-    Position: {x: 0, y: 0, z: 0}
-    Rotation: {x: 0, y: 0, z: 0}
   - Name: Toy Library Shop Entrance
     PositionObject: {fileID: 1882550115}
-    FloorNumber: 0
-    Position: {x: 0, y: 0, z: 0}
-    Rotation: {x: 0, y: 0, z: 0}
   - Name: Malika Hemahandra Jeweller Shop Entrance
     PositionObject: {fileID: 1703038185}
-    FloorNumber: 0
-    Position: {x: 0, y: 0, z: 0}
-    Rotation: {x: 0, y: 0, z: 0}
   - Name: W.A..De Silva & Co.Shop Entrance
     PositionObject: {fileID: 1130953046}
-    FloorNumber: 0
-    Position: {x: 0, y: 0, z: 0}
-    Rotation: {x: 0, y: 0, z: 0}
   - Name: StartPoint
     PositionObject: {fileID: 1767902959}
-    FloorNumber: 0
-    Position: {x: 0, y: 0, z: 0}
-    Rotation: {x: 0, y: 0, z: 0}
   navigationYOffset: {fileID: 1370962259}
 --- !u!120 &778980256
 LineRenderer:
@@ -4169,7 +4142,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1011241788}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -0.042, y: 0, z: -2470.936}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1593445347}
@@ -6241,7 +6214,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1593445346}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 2471}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1523433173}
@@ -7473,49 +7446,22 @@ MonoBehaviour:
   navigationTargetObjects:
   - Name: Signer Shop Entrance
     PositionObject: {fileID: 1869971734}
-    FloorNumber: 0
-    Position: {x: 0, y: 0, z: 0}
-    Rotation: {x: 0, y: 0, z: 0}
   - Name: Singer Shop Entrance Second
     PositionObject: {fileID: 1179029943}
-    FloorNumber: 0
-    Position: {x: 0, y: 0, z: 0}
-    Rotation: {x: 0, y: 0, z: 0}
   - Name: Main Entrance
     PositionObject: {fileID: 416729784}
-    FloorNumber: 0
-    Position: {x: 0, y: 0, z: 0}
-    Rotation: {x: 0, y: 0, z: 0}
   - Name: Abans Shop Entrance
     PositionObject: {fileID: 405265418}
-    FloorNumber: 0
-    Position: {x: 0, y: 0, z: 0}
-    Rotation: {x: 0, y: 0, z: 0}
   - Name: Vision Care Shop Entrance
     PositionObject: {fileID: 253236072}
-    FloorNumber: 0
-    Position: {x: 0, y: 0, z: 0}
-    Rotation: {x: 0, y: 0, z: 0}
   - Name: Toy Library Shop Entrance
     PositionObject: {fileID: 893597234}
-    FloorNumber: 0
-    Position: {x: 0, y: 0, z: 0}
-    Rotation: {x: 0, y: 0, z: 0}
   - Name: Malika Hemahandra Jeweller Shop Entrance
     PositionObject: {fileID: 804640406}
-    FloorNumber: 0
-    Position: {x: 0, y: 0, z: 0}
-    Rotation: {x: 0, y: 0, z: 0}
   - Name: W.A..De Silva & Co.Shop Entrance
     PositionObject: {fileID: 924523384}
-    FloorNumber: 0
-    Position: {x: 0, y: 0, z: 0}
-    Rotation: {x: 0, y: 0, z: 0}
   - Name: StartPoint
     PositionObject: {fileID: 1892974602}
-    FloorNumber: 0
-    Position: {x: 0, y: 0, z: 0}
-    Rotation: {x: 0, y: 0, z: 0}
 --- !u!4 &1844993917
 Transform:
   m_ObjectHideFlags: 0
